@@ -1,0 +1,131 @@
+2015-12-13 22:37:55   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 14375 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 22:37:55   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 22:37:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 12680 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 22:37:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 22:51:31   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 14817 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 22:51:31   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 22:51:31   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 12680 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 22:51:31   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:14:24   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 15909 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:14:24   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:14:25   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 12680 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:14:25   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:14:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 16026 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:14:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:14:57   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 12680 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:14:57   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:14:58   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7d8a20d0 
+2015-12-13 23:14:58   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:14:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:14:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:14:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:14:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:14:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 2.15 seconds (JVM running for 2664.766) 
+2015-12-13 23:15:01   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@70392f5e 
+2015-12-13 23:15:02   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:18:57   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 16375 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:18:57   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:19:01   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2ba30a3e 
+2015-12-13 23:19:01   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:19:02   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:19:02   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:19:02   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:19:02   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:19:02   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.384 seconds (JVM running for 5.676) 
+2015-12-13 23:21:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 16624 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:21:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:22:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@6d0ec1c 
+2015-12-13 23:22:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:22:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:22:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:22:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:22:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:22:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.348 seconds (JVM running for 5.689) 
+2015-12-13 23:27:42   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 16953 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:27:42   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:27:45   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@40c9b0b4 
+2015-12-13 23:27:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:27:47   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:27:47   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:27:47   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:27:47   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:27:47   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.117 seconds (JVM running for 5.447) 
+2015-12-13 23:29:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 17185 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:29:59   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:30:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@28559897 
+2015-12-13 23:30:03   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:30:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:30:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:30:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:30:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:30:04   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.103 seconds (JVM running for 5.472) 
+2015-12-13 23:32:32   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 17525 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:32:32   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:32:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@32ddeda4 
+2015-12-13 23:32:36   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:32:37   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:32:37   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:32:37   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:32:37   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:32:37   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.216 seconds (JVM running for 5.57) 
+2015-12-13 23:33:34   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 17714 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:33:34   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:33:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@71a8439c 
+2015-12-13 23:33:37   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:33:38   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:33:38   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:33:38   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=vava, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:33:38   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:33:38   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 4.7 seconds (JVM running for 5.085) 
+2015-12-13 23:38:42   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 18080 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:38:42   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:38:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@261f19b4 
+2015-12-13 23:38:46   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:38:47   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:38:48   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$l4reTETDeru5bY4nLXuiL.jzLxZWskckZEWEpkSqzpLmOdL1LhSSS, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:38:48   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$FVcWvO2h6v8nLi27/cUX9.5c730fjnJ0DO9jFvkTjiWgqAkdzXgLm, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:38:48   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:38:48   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.697 seconds (JVM running for 6.1) 
+2015-12-13 23:41:11   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 18316 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-13 23:41:11   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-13 23:41:17   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1dac10a5 
+2015-12-13 23:41:17   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-13 23:41:18   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-13 23:41:18   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$ba6DxBkWQB2eqKusDcbrQedzFsLGca7sWQu.IbxSBHUl5/Hq8ihOq, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-13 23:41:18   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$nounBV8qVpWCKPC7p9url.T1za.33RV1LgEZ7MN0s7zKS4/2jCZk2, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-13 23:41:18   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-13 23:41:18   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 7.61 seconds (JVM running for 8.227) 
+2015-12-14 00:03:01   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 19111 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-14 00:03:01   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-14 00:03:05   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2de77a88 
+2015-12-14 00:03:05   [restartedMain] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@2de77a88 
+2015-12-14 00:04:51   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 19268 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-14 00:04:51   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-14 00:04:54   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@27f41f75 
+2015-12-14 00:04:55   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-14 00:04:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-14 00:04:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$bzRRJS/z31SrHZsLR3yRAuPrRDQvZXwh4zLjNcFGQQdJHU6HbAObu, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-14 00:04:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$HQlrT25qh0V1J34EMdF88OmXvXPJyRcDUfSNe3ihXidlNGd6qpOwq, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-14 00:04:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-14 00:04:56   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.132 seconds (JVM running for 5.496) 
+2015-12-14 00:06:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 19466 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-14 00:06:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-14 00:06:19   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@74acebbc 
+2015-12-14 00:06:19   [restartedMain] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@74acebbc 
+2015-12-14 00:07:14   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 19626 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-14 00:07:14   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-14 00:07:17   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1d119b62 
+2015-12-14 00:07:18   [restartedMain] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@1d119b62 
+2015-12-14 00:08:42   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 19794 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-14 00:08:42   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-14 00:08:45   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7e4b52a7 
+2015-12-14 00:08:45   [restartedMain] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@7e4b52a7 
+2015-12-14 00:09:11   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Starting RememberMeApplication on przodownik-r1 with PID 19904 (/home/przodownik/blog/basicRememberMe/build/classes/main started by przodownik in /home/przodownik/blog/basicRememberMe) 
+2015-12-14 00:09:11   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - No profiles are active 
+2015-12-14 00:09:15   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - password Encoding org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@66571319 
+2015-12-14 00:09:15   [localhost-startStop-1] INFO  p.j.s.config.SecurityConfiguration - LOGIN FORM  ....... 
+2015-12-14 00:09:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++++++++++   1 
+2015-12-14 00:09:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ one User(login=przodownik, lastName=null, firstName=slawek, fullName=null, password=$2a$10$9zuskg.E20RLedS5e3ZcG.1xgPACUayHJV11GxU9KdELyoRDxzTIi, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user), Role(name=ADMIN, desc=only for special right user)]) 
+2015-12-14 00:09:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++ two User(login=vava, lastName=null, firstName=vava, fullName=null, password=$2a$10$UJpMt188DTl/B01.ZY6ufuI1mcn5NWsJpKvj0DZw5SB4dwXOjWGKC, confirmPassword=null, email=null, enabled=true, roles=[Role(name=USER, desc=only for ordinary user)]) 
+2015-12-14 00:09:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - +++++  Ostatni request 
+2015-12-14 00:09:16   [restartedMain] INFO  p.j.scalatech.RememberMeApplication - Started RememberMeApplication in 5.472 seconds (JVM running for 5.767) 

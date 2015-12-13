@@ -10,6 +10,7 @@ import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletCont
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
 import org.springframework.context.MessageSource;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.google.common.collect.Lists;
 
@@ -26,7 +27,10 @@ public class RememberMeApplication  implements EmbeddedServletContainerCustomize
     private RoleRepository roleRepository;
     @Autowired
     private UserRepository userRepository;
-    
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     @Autowired
     private MessageSource messageSource;
 
@@ -41,9 +45,9 @@ public class RememberMeApplication  implements EmbeddedServletContainerCustomize
         log.info("+++++++++++++   {}",user.getId());
 
         User one = userRepository.save(User.builder().firstName("slawek").login("przodownik")
-                .password("vava").enabled(true).build());
+                .password(passwordEncoder.encode("vava")).enabled(true).build());
         User two = userRepository.save(User.builder().firstName("vava").login("vava")
-                .password("vava").enabled(true)
+                .password(passwordEncoder.encode("vava")).enabled(true)
                 .build());
         one.setRoles(Lists.newArrayList(user,admin));
         two.setRoles(Lists.newArrayList(user));
@@ -53,7 +57,7 @@ public class RememberMeApplication  implements EmbeddedServletContainerCustomize
         log.info("+++ two {}",twoLoaded);
 
         log.info("+++++  {}",messageSource.getMessage("sess.msg.lastRequest", null, Locale.getDefault()));
-        
+
 
     }
      @Override

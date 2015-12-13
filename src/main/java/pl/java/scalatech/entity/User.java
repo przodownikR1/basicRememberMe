@@ -62,13 +62,23 @@ public class User extends PKEntity {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (!super.equals(obj)) return false;
-        if (getClass() != obj.getClass()) return false;
+        if (this == obj) {
+            return true;
+        }
+        if (!super.equals(obj)) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
         User other = (User) obj;
         if (login == null) {
-            if (other.login != null) return false;
-        } else if (!login.equals(other.login)) return false;
+            if (other.login != null) {
+                return false;
+            }
+        } else if (!login.equals(other.login)) {
+            return false;
+        }
         return true;
     }
 
@@ -79,7 +89,8 @@ public class User extends PKEntity {
         result = prime * result + ((login == null) ? 0 : login.hashCode());
         return result;
     }
-    
-    
+
+
+
 
 }

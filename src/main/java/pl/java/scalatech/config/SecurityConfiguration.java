@@ -44,6 +44,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
     JdbcTemplate jdbcTemplate;
 
+    @Value("classpath:security-schema.sql")
+    private Resource schema;
+
+    @Value("classpath:users.sql")
+    private Resource users;
+
+    @Value("classpath:userAuth.sql")
+    private Resource roles;
+
     @Value("classpath:persistent_logins.sql")
     private Resource schemaScript;
 
@@ -56,6 +65,16 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         try {
             String script = Resources.toString(schemaScript.getURL(), Charsets.UTF_8);
             jdbcTemplate.execute(script);
+
+          /*  String sch = Resources.toString(schema.getURL(), Charsets.UTF_8);
+            jdbcTemplate.execute(sch);
+
+            String u = Resources.toString(users.getURL(), Charsets.UTF_8);
+            jdbcTemplate.execute(u);
+
+            String r = Resources.toString(roles.getURL(), Charsets.UTF_8);
+            jdbcTemplate.execute(r);*/
+
         } catch (final IOException e) {
             throw new RuntimeException("Unable to convert resource " + schemaScript.getFilename(), e);
         }
@@ -94,15 +113,14 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             http.csrf().disable().headers().disable().authorizeRequests()
             .antMatchers("/login","/loginUser", "/logout",  "/principal", "/health", "/console","/logAuth/**")
                     .permitAll()
-                    .antMatchers("secContext").hasAnyRole("USER")
-                    .antMatchers("/user/sessions/").hasAnyRole("USER","ADMIN")
+
                     .antMatchers("/userTest").hasRole("USER")
                     .antMatchers("/userTest/*").hasRole("USER")
-                    .antMatchers("/userTest/principal").hasRole("USER")
                     .antMatchers("/guestTest").anonymous()
                     .antMatchers("/adminTest").hasRole("ADMIN")
                     .antMatchers("/adminTest2").hasRole("ADMIN")
                     .antMatchers("/adminTest3").hasRole("ADMIN")
+                    .antMatchers("/adminTest4").hasRole("ADMIN")
                     .antMatchers("/user/** ").hasAnyRole("USER","ADMIN")
                     .antMatchers("/simple/**").hasAnyRole("USER")
                     .antMatchers("/ip").hasIpAddress("127.0.0.1")  //antMatchers("/ipsecure/**").access("hasIpAddress('127.0.0.1')")
@@ -128,7 +146,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(UserDetailsService userDetailsService, AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
         log.info("password Encoding {}", passwordEncoder);
-        auth.userDetailsService(userDetailsService);
+        auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
 
     }
 
