@@ -3,7 +3,7 @@
 		value="%highlight(%.-5level)|%green(%date{yyyy-MM-dd HH:mm:ss.SSS})|%boldMagenta([%thread])|%yellow(%logger{70}:%boldYellow(%line)) - %msg%n%red(%rEx)" />
 
 	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
-		<file>concurrentSessionAuth.log</file>
+		<file>rememberMe.log</file>
 		<encoder>
 			<pattern>[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %logger{36} - [requestID: %X{requestID}] %msg%n</pattern>
 		</encoder>

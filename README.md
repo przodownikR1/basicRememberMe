@@ -1,4 +1,1 @@
-# basicAuthOpenId
-# basicConcurrentSession
-# basicRememberMe
 # basicRememberMe
