@@ -46,7 +46,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Value("classpath:persistent_logins.sql")
     private Resource schemaScript;
-   
+
 
     @Autowired
     private DataSource dataSource;
@@ -73,7 +73,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         // db.setCreateTableOnStartup(true);
         db.setDataSource(dataSource);
         return db;
-    } 
+    }
     @Bean
     public PersistentTokenRepository tokenRepository() {
         return new InMemoryTokenRepositoryImpl();
@@ -92,7 +92,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         // @formatter:off
             http.csrf().disable().headers().disable().authorizeRequests()
-            .antMatchers("/login","/loginUser", "/logout",  "/principal", "/health", "/console")
+            .antMatchers("/login","/loginUser", "/logout",  "/principal", "/health", "/console","/logAuth/**")
                     .permitAll()
                     .antMatchers("secContext").hasAnyRole("USER")
                     .antMatchers("/user/sessions/").hasAnyRole("USER","ADMIN")
@@ -108,7 +108,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                     .antMatchers("/ip").hasIpAddress("127.0.0.1")  //antMatchers("/ipsecure/**").access("hasIpAddress('127.0.0.1')")
                     .antMatchers("/userOne").access("hasRole('ROLE_ADMIN')")
                     .and().authorizeRequests().anyRequest().authenticated()
-                    
+
                     .and().formLogin()
                     .loginPage("/login").permitAll().defaultSuccessUrl("/welcome").failureUrl("/login?error").permitAll()
                     .and()
@@ -123,7 +123,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             // @formatter:on
     }
 
-   
+
 
     @Autowired
     public void configureGlobal(UserDetailsService userDetailsService, AuthenticationManagerBuilder auth, PasswordEncoder passwordEncoder) throws Exception {
